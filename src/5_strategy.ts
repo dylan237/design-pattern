@@ -84,7 +84,6 @@
       }
 
       // visitor
-      /*  */
       visit(visitor: (item: T, idx: number) => void): void {
         Object.values(this.db).forEach(visitor)
       }
@@ -114,7 +113,6 @@
 
   unsubscribe()
 
-  /*  */
   PokemonDB.instance.visit((item, idx) => {
     console.log('item--', item)
     console.log('idx--', idx)
