@@ -1,3 +1,4 @@
 /* eslint-disable */
-import './factory'
+// import './factory'
+import './singleton'
 
